@@ -1,7 +1,12 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="cpFiles.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="selectFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\vs Code\Project\WebApplocation\GG</Value>
+    </Setting>
+    <Setting Name="targetFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\vs Code\Project\WebApplocation\ININDER</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>

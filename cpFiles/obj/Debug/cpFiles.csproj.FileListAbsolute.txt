@@ -9,3 +9,14 @@ D:\vs Code\Project\WebApplocation\cpFiles\cpFiles\obj\Debug\cpFiles.csproj.Gener
 D:\vs Code\Project\WebApplocation\cpFiles\cpFiles\obj\Debug\cpFiles.csproj.CoreCompileInputs.cache
 D:\vs Code\Project\WebApplocation\cpFiles\cpFiles\obj\Debug\cpFiles.exe
 D:\vs Code\Project\WebApplocation\cpFiles\cpFiles\obj\Debug\cpFiles.pdb
+D:\vs Code\Project\WebApplocation\cpFiles\CopyFiles\cpFiles\bin\Debug\cpFiles.exe.config
+D:\vs Code\Project\WebApplocation\cpFiles\CopyFiles\cpFiles\bin\Debug\cpFiles.exe
+D:\vs Code\Project\WebApplocation\cpFiles\CopyFiles\cpFiles\bin\Debug\cpFiles.pdb
+D:\vs Code\Project\WebApplocation\cpFiles\CopyFiles\cpFiles\obj\Debug\cpFiles.csproj.AssemblyReference.cache
+D:\vs Code\Project\WebApplocation\cpFiles\CopyFiles\cpFiles\obj\Debug\cpFiles.csproj.SuggestedBindingRedirects.cache
+D:\vs Code\Project\WebApplocation\cpFiles\CopyFiles\cpFiles\obj\Debug\cpFiles.Form1.resources
+D:\vs Code\Project\WebApplocation\cpFiles\CopyFiles\cpFiles\obj\Debug\cpFiles.Properties.Resources.resources
+D:\vs Code\Project\WebApplocation\cpFiles\CopyFiles\cpFiles\obj\Debug\cpFiles.csproj.GenerateResource.cache
+D:\vs Code\Project\WebApplocation\cpFiles\CopyFiles\cpFiles\obj\Debug\cpFiles.csproj.CoreCompileInputs.cache
+D:\vs Code\Project\WebApplocation\cpFiles\CopyFiles\cpFiles\obj\Debug\cpFiles.exe
+D:\vs Code\Project\WebApplocation\cpFiles\CopyFiles\cpFiles\obj\Debug\cpFiles.pdb
