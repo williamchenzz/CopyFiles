@@ -42,7 +42,8 @@ namespace cpFiles
             }
             foreach (FileInfo f in Dir.GetFiles(this.txtFileExtension.Text)) //查詢檔案
             {
-                File.Copy(f.FullName, this.txtTargetFolder.Text + @"\" + f.Name, true);
+                if (!File.Exists(this.txtTargetFolder.Text + @"\" + f.Name))
+                    File.Move(f.FullName, this.txtTargetFolder.Text + @"\" + f.Name);
                 //listBox1.Items.Add(Dir + f.ToString()); //listBox1中填加檔名
             }
         }
@@ -52,11 +53,27 @@ namespace cpFiles
             try
             {
                 FindFile(txtSelectFolder.Text + @"\");
-                MessageBox.Show("Success!!!");
+                //MessageBox.Show("Success!!!");
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            txtSelectFolder.Text = Properties.Settings.Default.selectFolder;
+            txtTargetFolder.Text = Properties.Settings.Default.targetFolder;
+            if (String.IsNullOrWhiteSpace(txtSelectFolder.Text) && String.IsNullOrWhiteSpace(txtTargetFolder.Text))
+            {
+                MessageBox.Show("get config floderPath error，plz run manually!!!");
+            }
+            else
+            {
+                btnRun2Copy_Click(null, null);
+                this.Close();
+                this.Dispose();
             }
         }
     }
