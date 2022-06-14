@@ -46,5 +46,17 @@ namespace cpFiles.Properties {
                 this["targetFolder"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("*.txt")]
+        public string fileExetension {
+            get {
+                return ((string)(this["fileExetension"]));
+            }
+            set {
+                this["fileExetension"] = value;
+            }
+        }
     }
 }

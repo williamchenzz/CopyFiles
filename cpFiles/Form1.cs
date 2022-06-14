@@ -65,6 +65,7 @@ namespace cpFiles
         {
             txtSelectFolder.Text = Properties.Settings.Default.selectFolder;
             txtTargetFolder.Text = Properties.Settings.Default.targetFolder;
+            txtFileExtension.Text = Properties.Settings.Default.fileExetension;
             if (String.IsNullOrWhiteSpace(txtSelectFolder.Text) && String.IsNullOrWhiteSpace(txtTargetFolder.Text))
             {
                 MessageBox.Show("get config floderPath error，plz run manually!!!");

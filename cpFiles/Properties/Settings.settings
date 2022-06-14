@@ -8,5 +8,8 @@
     <Setting Name="targetFolder" Type="System.String" Scope="User">
       <Value Profile="(Default)">D:\vs Code\Project\WebApplocation\ININDER</Value>
     </Setting>
+    <Setting Name="fileExetension" Type="System.String" Scope="User">
+      <Value Profile="(Default)">*.txt</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
